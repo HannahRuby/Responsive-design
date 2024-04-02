@@ -1,0 +1,30 @@
+.container {
+  background: #eee;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 600px) {
+  .container {
+    background-color: aqua;
+  }
+}
+
+.menu {
+  padding: 30px;
+  border: solid;
+  border-radius: 10px;
+}
+.gallery {
+  padding: 30px;
+  border: solid;
+  border-radius: 10px;
+  width: 40%;
+}
+
+.contact {
+  padding: 30px;
+  border: solid;
+  border-radius: 10px;
+  width: 40%;
+}
